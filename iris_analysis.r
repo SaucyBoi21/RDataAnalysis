@@ -11,8 +11,5 @@ tail <- tail(iris, 4)
 View(head)
 View(tail)
 
-summary <- summary(iris)
-summary_iris <- summary(iris$Sepal.Length)
-
+summary  <- summary(iris)
 View(summary)
-View(summary_iris)
