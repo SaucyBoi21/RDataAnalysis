@@ -1,3 +1,7 @@
 library(tidyverse)
+library(conflicted)
+conflicts_prefer(dplyr::filter())
+conflicts_prefer(dplyr::lag())
 
-ggplot(data = mpg) + geom_point(mapping = aes(x = displ, y = hwy))
+View(mpg)
+ggplot(data = mpg) 
